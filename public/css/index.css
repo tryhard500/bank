@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-image: url('../assets/11060.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h2 {
+  margin: 0;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+
+  padding-top: 10px;
+  justify-content: flex-start;
+  align-items: stretch;
+  width: 400px;
+}
+
+
+.accounts-container img {
+  width: 100px;
+  margin: auto;
+}
+
+.transactions-container img {
+  width: 100px;
+  margin: auto;
+  padding: 10px;
+}
+
+#accounts {
+  text-align: center;
+}
+
+.accounts-container .list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.transactions-container .list-group-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sort-btn {
+    color: darkgrey;
+    text-decoration: none;
+    border: 2px solid darkgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.sort-btn:hover {
+    color: rgb(115, 115, 115);
+    border-color: rgb(115, 115, 115);
+    cursor: pointer;
+}
