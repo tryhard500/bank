@@ -1996,5 +1996,3 @@ node_modules/wordwrap/example/meat.js
 node_modules/wordwrap/test/break.js
 node_modules/wordwrap/test/idleness.txt
 node_modules/wordwrap/test/wrap.js
-json/accounts.json
-json/transactions.json

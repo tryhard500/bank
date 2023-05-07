@@ -50,7 +50,7 @@ app.get('/transactions/income', async (req, res) => {
     let account = req.query.account;
     let data = await Transaction.find({
         account: account,
-        value: {gte: 0}
-    });
+        value: {$gte: 0}
+    })
     console.log(data);
 });
